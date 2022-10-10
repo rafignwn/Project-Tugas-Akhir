@@ -1,0 +1,82 @@
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.exe
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\css\site.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\favicon.ico
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\js\site.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\bootstrap\LICENSE
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation\dist\additional-methods.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery-validation\LICENSE.md
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery\dist\jquery.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery\dist\jquery.min.js
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery\dist\jquery.min.map
+E:\Web ASP\bin\release\net5.0\publish\wwwroot\lib\jquery\LICENSE.txt
+E:\Web ASP\bin\release\net5.0\publish\appsettings.Development.json
+E:\Web ASP\bin\release\net5.0\publish\appsettings.json
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.dll
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.deps.json
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.runtimeconfig.json
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.pdb
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.EntityFrameworkCore.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.Extensions.DependencyInjection.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.Identity.Client.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.IdentityModel.Logging.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.IdentityModel.Protocols.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Web ASP\bin\release\net5.0\publish\Microsoft.IdentityModel.Tokens.dll
+E:\Web ASP\bin\release\net5.0\publish\Newtonsoft.Json.dll
+E:\Web ASP\bin\release\net5.0\publish\System.Configuration.ConfigurationManager.dll
+E:\Web ASP\bin\release\net5.0\publish\System.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\System.Diagnostics.DiagnosticSource.dll
+E:\Web ASP\bin\release\net5.0\publish\System.IdentityModel.Tokens.Jwt.dll
+E:\Web ASP\bin\release\net5.0\publish\System.Runtime.Caching.dll
+E:\Web ASP\bin\release\net5.0\publish\System.Security.Cryptography.ProtectedData.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-arm64\native\sni.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x64\native\sni.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win-x86\native\sni.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Web ASP\bin\release\net5.0\publish\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.Views.dll
+E:\Web ASP\bin\release\net5.0\publish\Web ASP.Views.pdb

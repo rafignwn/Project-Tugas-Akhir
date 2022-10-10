@@ -1,0 +1,20 @@
+.btn-logout {
+    all: unset;
+    position: fixed;
+    top: 10px;
+    cursor: pointer;
+    z-index: 10;
+    color: var(--blue);
+    font-weight: 600;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: rgba(10, 10, 10, .4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 3px 7px var(--blue);
+    border-radius: 10px;
+}
+.btn-logout:hover,
+.btn-logout:focus {
+    box-shadow: 0 2px 4px var(--blue);
+    transform: scale(1.06);
+}

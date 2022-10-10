@@ -1,0 +1,118 @@
+.info {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  min-height: 220px;
+  padding: 10px;
+  padding-bottom: 0;
+  box-shadow: 3px 3px 10px 0 rgba(10, 10, 10, .6);
+  border-radius: 10px;
+}
+.info ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.info ul li {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  color: var(--smoke-white);
+  opacity: .8;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, .35);
+}
+.info ul li span{
+  display: inline-block;
+  background-color: #2b8db742;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.info ul li span:not(:last-child) {
+  margin-right: 5px;
+}
+.link {
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.link a,
+.link button {
+  position: relative;
+  text-decoration: none;
+  background: none;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 8px 18px;
+  border-radius: 7px;
+  letter-spacing: .7px;
+  color: var(--dark);
+  border: 2px solid var(--blue);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.link a::before,
+.link button::before {
+  content:'';
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: var(--smoke-white);
+  pointer-events: none;
+  z-index: -1;
+}
+.link a:hover::before,
+.link button:hover::before,
+.link a:active::before,
+.link button.btn-wait::before,
+.link button.btn-goal::before  {
+  left: 0;
+  top: 0;
+  border-radius: 0;
+}
+.link button.btn-wait {
+  color: var(--dark);
+  border-color: var(--semi-dark);
+  pointer-events: none;
+}
+.link button.btn-goal {
+  background-color: #86DB03;
+  border-color: #86DB03;
+  color: #fff;
+}
+.link button.btn-wait::before {
+  background-color: var(--orange);
+}
+.link button:focus {
+  outline: none;
+}
+
+.info h5 {
+  font-size: 18px;
+  color: var(--blue);
+  opacity: .8;
+  letter-spacing: .7px;
+}
+
+/* warna level ph */
+.info ul li span.netral {
+  background-color: #00cc9979;
+}
+.info ul li span.asam {
+  background-color: #ffcc0079;
+}
+.info ul li span.basa {
+  background-color: #66009979;
+}
+/* warna kondisi */
+.info ul li span.baik {
+  background-color: #5aa1fc79;
+}
+.info ul li span.kurang {
+  background-color: #66003389;
+}

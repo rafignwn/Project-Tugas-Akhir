@@ -1,0 +1,8 @@
+.link-back {
+    text-decoration: none;
+    color: var(--blue);
+    letter-spacing: .7px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 14px;
+}

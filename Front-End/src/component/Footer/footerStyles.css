@@ -1,0 +1,17 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    color: var(--smoke-white);
+    /* border-top: 1px solid var(--blue); */
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(10, 10, 10, .3);
+}
+.footer span {
+    font-weight: 600;
+    color: var(--blue);
+}

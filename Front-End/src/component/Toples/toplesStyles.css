@@ -1,0 +1,201 @@
+.section {
+    position: relative;
+    transform: translateY(25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 420px;
+}
+.toples {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    transform-origin: bottom center;
+    border: 8px solid transparent;
+    animation-name: animateFlay;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#wrapFix {
+    position: relative;
+}
+.liquid {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    background-color: var(--blue);
+    /* inset: 50% 2px 2px 2px; */
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    filter: drop-shadow(0 0 20px var(--blue));
+    /* transform-origin: top center;
+    animation-name: rollingLiquidAnimate;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+}
+.netral.liquid {
+    background-color: #00cc99;
+    filter:  drop-shadow(0 0 20px #00cc99);
+}
+.netral.liquid::before {
+    background-color: #077c72;
+}
+.asam.liquid {
+    background-color: #ffcc00a6;
+    filter:  drop-shadow(0 0 20px #ffcc00);
+}
+.asam.liquid::before {
+    background-color: #dfce2d;
+}
+.basa.liquid {
+    background-color: #8100998a;
+    filter:  drop-shadow(0 0 20px #810099);
+}
+.basa.liquid::before {
+    background-color: #810099;
+}
+.toples::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 20px;
+    border-radius: 50%;
+    border: 15px solid #4A555E;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+}
+.toples:after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.liquid span {
+    color: #fff;
+    font-size: 35px;
+    opacity: .7;
+    font-weight: 600;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.liquid span code {
+    font-weight: 400;
+    margin-right: 10px;
+}
+.liquid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 30px;
+    background-color: #3df1f7;
+    border-radius: 65% 25% 25% 65% / 50%;
+    animation-name: liquidAnimate;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.liquid::after {
+    content: '';
+    width: 100%;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 400px;
+}
+@keyframes liquidAnimate {
+    100%,0% {
+        border-radius: 65% 25% 65% 25% / 50%;
+    }
+    50%{
+        border-radius: 25% 65% 25% 65% / 50%;
+    }
+}
+
+@keyframes rollingAnimate {
+    100%,0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+}
+
+@keyframes animateFlay {
+    100%,0% {
+        transform: translateY(4px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes rollingLiquidAnimate {
+    100%,0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(25deg);
+    }
+}
+
+.shadow {
+    position: absolute;
+    top: calc(50% + 140px);
+    width: 300px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+@media (max-width: 940px) {
+    .section {
+        top: 0;
+        transform: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .shadow {
+        width: 230px;
+        top: calc(50% + 115px);
+    }
+    .liquid span {
+        font-size: 25px;
+    }
+    .toples {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter', sans-serif;
+}
+
+:root {
+  --dark: #082032;
+  --semi-dark: #334756;
+  --blue-dark: #2c394b;
+  --smoke-white: #d3d3d3;
+  --orange: #ff4c29;
+  --blue: #1ebbd7;
+}
+
+body  {
+  background-color: var(--dark);
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  /* max-width: 1000px; */
+  padding: 20px;
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 10px;
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,73 @@
+.chart-ph {
+    max-width: 700px;
+    max-height: 400px;
+    margin: 30px auto;
+    margin-top: 0;
+}
+.wrapper-chart {
+    position: relative;
+    overflow: auto;
+    width: fit-content;
+}
+.btn-chart {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    padding-right: 0;
+    margin-top: 18px;
+}
+.btn-chart button:not(:last-child) {
+    margin-right: 6px;
+}
+.btn-chart button {
+    all: unset;
+    padding: 3px 7px;
+    background-color: #00000080;
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: #fff9;
+    cursor: pointer;
+    box-shadow: 0 3px 7px rgb(10 10 10 / 30%);
+}
+.btn-chart button.active,
+.btn-chart button:hover,
+.btn-chart button:focus {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    background-color: #00b2ffe0;
+}
+#ChartPhRes {
+    margin: auto;
+    height: 400px !important;
+    width: 650px !important;
+    aspect-ratio: auto 650 / 400;
+}
+@media (max-width: 650px) {
+    .wrapper-chart {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    #ChartPhRes {
+        margin: auto;
+        width: 372px !important;
+        min-height: 300px !important;
+        height: 300px !important;
+        aspect-ratio: auto 372 / 300;
+    }
+    .btn-chart {
+        justify-content: center;
+    }
+    .wrapper-chart {
+        backdrop-filter: blur(25px);
+        background-color: rgba(255, 255, 255, 0.03);
+    }
+}
+
+@media (max-width: 420px) {
+    #ChartPhRes {
+        margin: 0;
+    }
+}

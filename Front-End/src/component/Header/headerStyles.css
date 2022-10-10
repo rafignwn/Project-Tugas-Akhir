@@ -1,0 +1,18 @@
+.title-project {
+    color: #d3d3d3;
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+    letter-spacing: .7px;
+}
+.title-project h1 {
+    color: var(--blue);
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.title-project p {
+    opacity: .4;
+    font-size: 14px;
+    font-weight: 400;
+}

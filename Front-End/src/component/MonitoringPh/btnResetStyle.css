@@ -1,0 +1,32 @@
+.btn-reset{
+    all: unset;
+    padding: 5px 10px;
+    position: absolute;
+    background-color: #00000080;
+    color: #ffff;
+    box-shadow: 0 3px 7px rgb(10 10 10 / 30%);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 6px;
+    letter-spacing: .5px;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-reset:hover,
+.btn-reset:active {
+    opacity: .89;
+    background-color: #ce2323;
+}
+
+@media (max-width: 580px) {
+    .btn-reset {
+        position: relative;
+        display: block;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
